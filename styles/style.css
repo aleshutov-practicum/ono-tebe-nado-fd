@@ -3,7 +3,7 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding-top: 92px;
-    padding-bottom: 92px;
+    padding-bottom: 96px;
 }
 
 .header__menu {
@@ -35,7 +35,6 @@
 }
 
 .header__logo {
-    display: block;
     width: 136px;
 }
 
