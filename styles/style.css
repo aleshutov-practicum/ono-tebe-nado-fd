@@ -1,13 +1,12 @@
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    min-height: 293px;
     align-items: center;
+    padding-top: 92px;
+    padding-bottom: 92px;
 }
 
 .header__menu {
-    height: 100%;
-    padding-top: 133px;
     padding-left: 50px;
 }
 
@@ -28,7 +27,7 @@
     font-size: 18px;
     font-weight: 400;
     text-underline-offset: 4px;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
 }
 
 .header__link_active {
@@ -36,6 +35,7 @@
 }
 
 .header__logo {
+    display: block;
     width: 136px;
 }
 
@@ -52,7 +52,7 @@
     font-size: 18px;
     font-weight: 400;
     text-underline-offset: 4px;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
 }
 
 
@@ -111,7 +111,7 @@
 }
 
 .no-letter-spacing {
-    letter-spacing: 0;    
+    letter-spacing: 0;
 }
 
 .cover__description {
@@ -131,14 +131,14 @@
     color: #fff;
     font-weight: 400;
     font-size: 22px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     word-spacing: 18.5px;
 }
 
 .bet-button {
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     color: #fff;
     font-weight: 500;
     font-size: 22px;
@@ -190,7 +190,7 @@
     padding-bottom: 48px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;    
+    background-position: center top;
 }
 
 .card_type_film {
@@ -207,7 +207,7 @@
     font-size: 22px;
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
     text-underline-offset: 3px;
     text-transform: uppercase;
     color: #fff;
@@ -232,21 +232,21 @@
     font-size: 20px;
     font-weight: 400;
     text-underline-offset: 4px;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
 } 
 
 .about {
     display: grid;
     grid-template-columns: 334px auto;
-    align-items: center; 
+    align-items: center;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .about__logo {
-    display: flex; 
+    display: flex;
     justify-content: center;
-    justify-self: center;    
+    justify-self: center;
     background-color: black;
     border-radius: 50%;
     width: 240px;
@@ -254,7 +254,7 @@
 }
 
 .about__logo-image {
-    width: 148px; 
+    width: 148px;
 }
 
 .about__title {
@@ -309,7 +309,7 @@
     font-size: 18px;
     font-weight: 400;
     text-underline-offset: 4px;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
 }
 
 .footer__menu-link_active {
